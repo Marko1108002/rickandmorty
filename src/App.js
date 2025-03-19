@@ -1,12 +1,12 @@
 import './App.css';
-import CharactersList from './pages/Characters';
-import LanguageSelector from './components/LanguageSelector';
+import Characters from './pages/Characters';
+import Navbar from './components/Navbar';
 function App() {
 
   return (
     <div className="App">
-      <LanguageSelector></LanguageSelector>
-      <CharactersList></CharactersList>
+      <Navbar />
+      <Characters/>
     </div>
   );
 }
